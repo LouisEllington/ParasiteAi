@@ -1,0 +1,33 @@
+[package]
+name = "parasitic-ai-platform"
+version = "0.1.0"
+edition = "2024"
+description = "Framework for Cloning and Managing Parasitic AI Agents"
+homepage = "https://github.com/LouisEllington/ParasiteAi"
+repository = "https://github.com/LouisEllington/ParasiteAi"
+license = "MIT"
+keywords = ["AI", "Rust", "Arc Architecture", "Parasitic Agents"]
+categories = ["machine-learning", "data-analysis", "artificial-intelligence"]
+readme = "README.md"
+
+[dependencies]
+rig-core = "0.5.0"
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.11", features = ["json"] }
+base64 = "0.21"
+thiserror = "1.0"
+dotenv = "0.15"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+anyhow = "1.0"
+prettytable-rs = "0.10"
+
+[features]
+default = []
+extras = ["experimental-parasitic-tools"]
+
+[badges]
+actions = { repository = "LouisEllington/ParasiteAi", branch = "main", status = "https://img.shields.io/github/actions/workflow/status/LouisEllington/ParasiteAi/build.yml?branch=main" }
+license = { text = "MIT", color = "green" }
