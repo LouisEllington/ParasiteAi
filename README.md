@@ -5,7 +5,6 @@
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Rust](https://img.shields.io/badge/language-Rust-orange.svg)](https://www.rust-lang.org/)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/LouisEllington/ParasiteAi/build.yml?branch=main)](https://github.com/LouisEllington/ParasiteAi/actions)
 [![GitHub issues](https://img.shields.io/github/issues/LouisEllington/ParasiteAi)](https://github.com/LouisEllington/ParasiteAi/issues)
 [![GitHub stars](https://img.shields.io/github/stars/LouisEllington/ParasiteAi?style=social)](https://github.com/LouisEllington/ParasiteAi)
 </div>
